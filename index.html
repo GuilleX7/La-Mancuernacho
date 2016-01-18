@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>La Mancuernacho</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="src/global.css" type="text/css" />
+    <link rel="icon" href="favicon.ico" />
+    
+    <!-- GAME SCRIPTS -->
+    <script src="src/class/_extend.js"></script>
+    
+    <script src="src/class/engine/rect.js"></script>
+    <script src="src/class/engine/loader.js"></script>
+    <script src="src/class/engine/timer.js"></script>
+    <script src="src/class/engine/tween.js"></script>
+    <script src="src/class/engine/camera.js"></script>
+    <script src="src/class/engine/spritesheet.js"></script>
+    <script src="src/class/engine/animation.js"></script>
+    <script src="src/class/engine/sprite.js"></script>
+    <script src="src/class/engine/text.js"></script>
+    
+    <script src="src/class/entity/nacho.js"></script>
+    <script src="src/class/entity/karen.js"></script>
+    <script src="src/class/entity/dc.js"></script>
+    <script src="src/class/entity/cristian.js"></script>
+    <script src="src/class/entity/car.js"></script>
+    
+    <script src="src/class/hud/fantometer.js"></script>
+    <script src="src/class/hud/arrow.js"></script>
+    <script src="src/class/hud/dieses.js"></script>
+    <script src="src/class/hud/pausemenu.js"></script>
+    <script src="src/class/hud/crossfadelayer.js"></script>
+    <script src="src/class/hud/achievement.js"></script>
+    <script src="src/class/hud/stagetimer.js"></script>
+    
+    <script src="src/state/preload.js"></script>
+    <script src="src/state/difficulty.js"></script>
+    <script src="src/state/intro.js"></script>
+    <script src="src/state/opening.js"></script>
+    <script src="src/state/start.js"></script>
+    <script src="src/state/meriworld.js"></script>
+    <script src="src/state/tutorial.js"></script>
+    <script src="src/state/trophyroom.js"></script>
+    <script src="src/state/gimnacho.js"></script>
+    <script src="src/state/office.js"></script>
+    <script src="src/state/canmeri.js"></script>
+    <script src="src/state/fidelidation.js"></script>
+    <script src="src/state/credits.js"></script>
+    
+    <script src="src/keyboard.js"></script>
+    <script src="src/savedata.js"></script>
+    <script src="src/main.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <canvas id="game" width="704" height="396"></canvas>
+        <div id="sdgroup">
+            <input id="sdtext" type="text" placeholder="ABCDEFGHIJ">
+            <button id="sdbutton" type="button">Importar</button>
+        </div>
+    </div>
+</body>
+</html>

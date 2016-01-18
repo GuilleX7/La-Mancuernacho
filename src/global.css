@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'pixel';
+    src: url('../assets/fonts/pixel.ttf');
+}
+
+@font-face {
+    font-family: 'lcd';
+    src: url('../assets/fonts/lcd.ttf');
+}
+
+@font-face {
+    font-family: 'timer';
+    src: url('../assets/fonts/timer.ttf');
+}
+
+body {
+    background-color: #000000;
+}
+
+#wrapper {
+    width: 704px;
+    height: 396px;
+    border: solid 1px white;
+    margin: 0 auto;
+}
+
+#game:-webkit-full-screen {
+    width: auto !important;
+    height: 100% !important;
+}
+
+#sdgroup {
+    display: none;
+    position: absolute;
+    top: 360px;
+    margin: 0 0 0 237px;
+}
+
+#sdgroup input {
+    margin: 0;
+    font-family: "pixel";
+    border: solid 2px #CECECE;
+    width: 120px;
+    height: 16px;
+}
+
+#sdgroup button {
+    margin: 0;
+    font-family: "pixel";
+    border: solid 2px #CECECE;
+    width: 90px;
+    height: 20px;
+}
